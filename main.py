@@ -20,7 +20,7 @@ spell = SpellChecker()
 
 app = Quart(__name__)
 picture = 'kilgore.gif'
-imagepath = f'/home/brokslinux/Downloads/kilgore/{picture}'
+imagepath = f'{picture}'
 humandictionarywords = {"hi", "my", "name", "Mika"}
 
 @app.route('/kilgore.gif')
